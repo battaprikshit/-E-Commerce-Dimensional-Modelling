@@ -140,10 +140,10 @@ JOIN
   dim_department d ON fop.department_id = d.department_id
 GROUP BY
   d.department;
-
+```
 ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc2.png)
 
-
+```sql
 -- Query to find the top 5 aisles with the highest number of reordered products:
 SELECT
   a.aisle,
@@ -162,7 +162,7 @@ LIMIT 5;
 ```
 
 ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc3.png)
-
+```sql
 -- Query to calculate the average number of products added to the cart per order by day of the week:
 SELECT
   o.order_dow,
@@ -175,7 +175,8 @@ GROUP BY
   o.order_dow;
 
 ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc4.png)
-
+```
+```sql
 -- Query to identify the top 10 users with the highest number of unique products ordered:
 SELECT
   u.user_id,
@@ -190,7 +191,7 @@ ORDER BY
   unique_products_ordered DESC
 LIMIT 10;
 ```
-
+![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc5.png)
 As we can see we can do Analytics on top of these tables.
  
  
