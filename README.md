@@ -1,5 +1,5 @@
 
-# E-Commerce Dimensional Modelling\
+# E-Commerce Dimensional Modelling
 
 In my Instacart data project, I've implemented a dimensional model using a star schema. This involved transforming data from various CSV files into fact and dimension tables. The star schema design consists of a central fact table surrounded by dimension tables, enabling efficient querying. The fact table, named fact_order_products, holds transactional data, while dimension tables like dim_products and dim_orders provide additional context. This structured approach facilitates easy retrieval of insights, making it a powerful tool for analysis in my Instacart data project.
 
