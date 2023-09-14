@@ -189,7 +189,6 @@ ORDER BY
   unique_products_ordered DESC
 LIMIT 10;
 ```
-![alt text] (https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc5.png)
 
 As we can see we can do Analytics on top of these tables.
  
