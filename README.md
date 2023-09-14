@@ -160,6 +160,8 @@ ORDER BY
   total_reordered DESC
 LIMIT 5;
 
+![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc3.png)
+
 -- Query to calculate the average number of products added to the cart per order by day of the week:
 SELECT
   o.order_dow,
@@ -170,6 +172,8 @@ JOIN
   dim_orders o ON fop.order_id = o.order_id
 GROUP BY
   o.order_dow;
+
+![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc4.png)
 
 -- Query to identify the top 10 users with the highest number of unique products ordered:
 SELECT
@@ -184,8 +188,10 @@ GROUP BY
 ORDER BY
   unique_products_ordered DESC
 LIMIT 10;
+
+![alt text] (https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc5.png)
 ```
-As we can see that we can do Analytics on top of these tables.
+As we can see we can do Analytics on top of these tables.
  
  
 
