@@ -18,8 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 3. Login to you AWS Consle and create S3 bucket and upload the data into instacart folder in S3 bucket.![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc1.png)
 
-4. Login to Snowflake and Create a Database . I have created database named Instacart. --url
-
+4. Login to Snowflake and Create a Database . I have created database named Instacart.
 5. Create Stage to Connect AWS S3 Bucket to Snowflake Database
 
 ```sql
@@ -141,7 +140,10 @@ JOIN
   dim_department d ON fop.department_id = d.department_id
 GROUP BY
   d.department;
+```
+![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc2.png)
 
+```sql
 -- Query to find the top 5 aisles with the highest number of reordered products:
 SELECT
   a.aisle,
