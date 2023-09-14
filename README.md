@@ -159,6 +159,7 @@ GROUP BY
 ORDER BY
   total_reordered DESC
 LIMIT 5;
+```
 
 ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc3.png)
 
