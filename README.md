@@ -104,7 +104,7 @@ FROM @my_stage/order_products.csv
 FILE_FORMAT = (FORMAT_NAME = 'csv_file_format');
 
 ```
-8. Next Step is we have to create the Fact and Dimension tables. First we can create the model for the tables. ---url
+8. Next Step is we have to create the Fact and Dimension tables. First we can create the model for the tables. ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/FactDim.jpg)
 
 9. Now As per our dimensional model we can create the facts and dimension tables and load the data into these tables.
 
