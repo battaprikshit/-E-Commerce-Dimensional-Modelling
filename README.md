@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. You can also download the dataset from [google drive](https://drive.google.com/drive/folders/1XJluibMqtv5Ulw3R7nSqQWXi5e6s5FUQ)
 
-3. Login to you AWS Consle and create S3 bucket and upload the data into instacart folder in S3 bucket.--- url
+3. Login to you AWS Consle and create S3 bucket and upload the data into instacart folder in S3 bucket.![Data into s3 bucket] (D:\Prikshit Masters Projects\E-Commerce-Dimensional-Modelling\instacart Screenshorts\sc1.png) 
 
 4. Login to Snowflake and Create a Database . I have created database named Instacart. --url
 
