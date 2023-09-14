@@ -140,10 +140,10 @@ JOIN
   dim_department d ON fop.department_id = d.department_id
 GROUP BY
   d.department;
-```
+
 ![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc2.png)
 
-```sql
+
 -- Query to find the top 5 aisles with the highest number of reordered products:
 SELECT
   a.aisle,
