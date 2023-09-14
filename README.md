@@ -173,9 +173,9 @@ JOIN
   dim_orders o ON fop.order_id = o.order_id
 GROUP BY
   o.order_dow;
-
-![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc4.png)
 ```
+![alt text](https://github.com/battaprikshit/E-Commerce-Dimensional-Modelling/blob/main/instacart%20Screenshorts/sc4.png)
+
 ```sql
 -- Query to identify the top 10 users with the highest number of unique products ordered:
 SELECT
